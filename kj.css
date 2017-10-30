@@ -1,0 +1,43 @@
+/*
+* @Author: michellewkx
+* @Date:   2017-10-29 22:48:40
+* @Last Modified by:   michellewkx
+* @Last Modified time: 2017-10-30 01:09:44
+*/
+body{
+	background-color: #ccc;
+	position: relative;
+}
+.warWrapper {
+	position: relative;
+}
+
+.war:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+img {
+	width: 100%;
+	position: absolute;
+}
+i {
+	position: relative;
+	font-size: 30px;
+}
+.icon-emo-angry {
+	color: red;
+}
+.icon-spin1 {
+	color: green;
+}
+.icon-emo-happy {
+	color: yellow;
+}
+.ui-tooltip {
+    overflow: hidden;
+    word-break: break-all;
+    white-space: pre-wrap;
+}
